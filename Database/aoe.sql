@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.8.3
--- https://www.phpmyadmin.net/
---
--- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 02, 2019 lúc 05:18 PM
--- Phiên bản máy phục vụ: 10.1.36-MariaDB
--- Phiên bản PHP: 5.6.38
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
@@ -21,7 +12,8 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `aoe`
 --
-
+CREATE DATABASE aoe;
+USE aoe;
 -- --------------------------------------------------------
 
 --
